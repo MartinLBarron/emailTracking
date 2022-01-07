@@ -25,7 +25,7 @@ ggplot(AllMail2021received) +
   labs(title="Email Recevied Accross the Day")+
   theme_minimal()
 
-ggsave("output/Hourly_Received_Summary.png", h=4, w=6)
+ggsave("output/5_Hourly_Received_Summary.png", h=4, w=6)
 
 ggplot(AllMail2021sent) + 
   geom_col(aes(x=hour, y=sent), fill="blue", col="blue")+
@@ -35,7 +35,7 @@ ggplot(AllMail2021sent) +
   labs(title="Email Sent Accross the Day")+
   theme_minimal()
 
-ggsave("output/Hourly_Sent_Summary.png", h=4, w=6)
+ggsave("output/6_Hourly_Sent_Summary.png", h=4, w=6)
 
 
 

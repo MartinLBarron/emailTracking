@@ -24,7 +24,7 @@ ggplot (data=DailyMail2021extended) +
   theme_minimal()
 
 
-ggsave("output/2021EmailReceived.png", h=4, w=6)
+ggsave("output/3_2021EmailReceived.png", h=4, w=6)
 
 ggplot (data=DailyMail2021extended) +
   geom_point(aes(x=date, y=MailSent), alpha=.25) +
@@ -38,4 +38,4 @@ ggplot (data=DailyMail2021extended) +
   theme_minimal()
 
 
-ggsave("output/2021EmailSent.png", h=4, w=6)
+ggsave("output/4_2021EmailSent.png", h=4, w=6)

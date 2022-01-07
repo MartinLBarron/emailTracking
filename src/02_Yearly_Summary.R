@@ -28,7 +28,7 @@ ggplot(YearlySummary) +
   scale_x_continuous(breaks=seq(2019, 2021, 1))+ 
    scale_y_continuous(labels = comma)
 
-ggsave("output/Yearly_Received_Summary.png", h=4, w=6)
+ggsave("output/1_Yearly_Received_Summary.png", h=4, w=6)
 
 ggplot(YearlySummary) +
   geom_segment( aes(x=Year, xend=Year, y=0, yend=sumSent), color="orange") +
@@ -41,5 +41,5 @@ ggplot(YearlySummary) +
   scale_x_continuous(breaks=seq(2019, 2021, 1))+ 
   scale_y_continuous(labels = comma)
 
-ggsave("output/Yearly_Sent_Summary.png", h=4, w=6)
+ggsave("output/2_Yearly_Sent_Summary.png", h=4, w=6)
 

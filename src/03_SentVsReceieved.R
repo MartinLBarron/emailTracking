@@ -14,5 +14,5 @@ ggplot(data=DailyMail2021) +
   theme_minimal()
 
 
-ggsave("output/ReceivedVsSent.png", h=4, w=6)
+ggsave("output/7_ReceivedVsSent.png", h=4, w=6)
 
